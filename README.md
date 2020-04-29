@@ -34,7 +34,7 @@ Or run it directly in your machine with docker
 
 ```shell
 docker run --rm -it \
-  --name nodejs \
+  --name react-pipeline \
   --entrypoint /bin/sh \
   lamhq/react-pipeline:latest
 ```
