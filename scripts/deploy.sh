@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export IMAGE=lamhq/restpip:latest
+export IMAGE=lamhq/react-pipeline:latest
 
 docker build -t ${IMAGE} .
 

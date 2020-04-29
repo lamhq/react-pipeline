@@ -2,4 +2,4 @@
 docker run --rm -it \
   --name nodejs \
   --entrypoint /bin/sh \
-  lamhq/restpip:latest
+  lamhq/react-pipeline:latest

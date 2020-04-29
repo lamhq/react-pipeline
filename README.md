@@ -1,7 +1,6 @@
-# Rest Boilerplate Pipeline Image
+# React Pipeline Image
 
-Dockerfile for docker image used in running pipeline of Rest Boilerplate Project.
-
+Docker image for running pipeline of React Boilerplate project.
 
 ## Installed softwares 
 
@@ -22,7 +21,7 @@ pipelines:
       - step:
           name: Build and Deploy
           deployment: Test
-          image: lamhq/restpip:latest
+          image: lamhq/react-pipeline:latest
           script:
             - yarn install --production=false
             - yarn run build
@@ -37,5 +36,5 @@ Or run it directly in your machine with docker
 docker run --rm -it \
   --name nodejs \
   --entrypoint /bin/sh \
-  lamhq/restpip:latest
+  lamhq/react-pipeline:latest
 ```
